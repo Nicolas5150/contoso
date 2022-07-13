@@ -1,0 +1,181 @@
+{
+    "menus": [
+      {
+        "id": "ea1ee0b2-6d57-11e8-8b12-c3ce84091ea3",
+        "name": "Breakfast",
+        "items": [
+          {
+            "id": "27070a72-0284-11e6-95eb-079a59df6edb",
+            "name": "Breakfast Burrito",
+            "price": 1299,
+            "display_price": "$12.99",
+            "picture_url": "https://designengtmpblob.blob.core.windows.net/files/images/breakfast_burrito.jpg"
+          },
+          {
+            "id": "46db1cb0-c3b2-11e9-9770-d3d34d8cb377",
+            "name": "Bagel & Cream Cheese",
+            "price": 349,
+            "display_price": "$3.49",
+            "picture_url": "https://designengtmpblob.blob.core.windows.net/files/images/bagel_cream_cheese.jpg"
+          },
+          {
+            "id": "b33747dc-6bf6-11ec-a11d-db38332b93ff",
+            "name": "Waffles",
+            "price": 1399,
+            "display_price": "$13.99",
+            "picture_url": "https://designengtmpblob.blob.core.windows.net/files/images/waffles.jpg"
+          },
+          {
+            "id": "e48d46f0-6c01-11ec-99f3-7385648a0970",
+            "name": "Veggie Omelette",
+            "price": 899,
+            "display_price": "$8.99",
+            "picture_url": "https://designengtmpblob.blob.core.windows.net/files/images/veggie_omelette.jpg"
+          },
+          {
+            "id": "7134f2ec-6c02-11ec-9cf6-53a6225f4dc1",
+            "name": "Ham & Cheese Omelette",
+            "price": 799,
+            "display_price": "$7.99",
+            "picture_url": "https://designengtmpblob.blob.core.windows.net/files/images/ham_cheese_omelette.jpg"
+          }
+        ]
+      },
+      {
+        "id": "000ad3e0-6d58-11e8-b274-b3e845b8161b",
+        "name": "Salads",
+        "items": [
+          {
+            "id": "b86e94ae-f036-11e5-a7aa-b3e770688e1d",
+            "name": "Mixed Greens Salad",
+            "price": 829,
+            "display_price": "$8.29",
+            "picture_url": "https://designengtmpblob.blob.core.windows.net/files/images/mixed_greens_salad.jpg"
+          },
+          {
+            "id": "e6cc989a-2916-11e7-b19d-fb8e07628fcb",
+            "name": "Chicken Salad",
+            "price": 1799,
+            "display_price": "$17.99",
+            "picture_url": "https://designengtmpblob.blob.core.windows.net/files/images/chicken_salad.jpg"
+          },
+          {
+            "id": "efe842b4-f38b-11eb-af5a-171921d45e36",
+            "name": "Caesar Salad",
+            "price": 999,
+            "display_price": "$9.99",
+            "picture_url": "https://designengtmpblob.blob.core.windows.net/files/images/caesar_salad.jpg"
+          }
+        ]
+      },
+      {
+        "id": "1145c55c-6d58-11e8-a756-c7cc268f8129",
+        "name": "Burgers",
+        "items": [
+          {
+            "id": "add07426-f2b7-11e5-876e-839949692e22",
+            "name": "Cheeseburger",
+            "price": 999,
+            "display_price": "$9.99",
+            "picture_url": "https://designengtmpblob.blob.core.windows.net/files/images/cheese_burger.jpg"
+          },
+          {
+            "id": "cc817450-f2b8-11e5-b034-3788d4a6466e",
+            "name": "Double Cheeseburger",
+            "price": 1499,
+            "display_price": "$14.99",
+            "picture_url": "https://designengtmpblob.blob.core.windows.net/files/images/double_cheese_burger.jpg"
+          },
+          {
+            "id": "c99f9ebe-6d5f-11e8-b16d-b37563fe68e9",
+            "name": "Chicken Sandwich",
+            "price": 1299,
+            "display_price": "$12.99",
+            "picture_url": "https://designengtmpblob.blob.core.windows.net/files/images/chicken_sandwich.jpg"
+          }
+        ]
+      },
+      {
+        "id": "6324844e-6d58-11e8-aa2d-33b06602a705",
+        "name": "Pizza",
+        "items": [
+          {
+            "id": "9903768e-03e6-11eb-8bec-9f37191d1361",
+            "name": "Cheese Pizza",
+            "price": 1199,
+            "display_price": "$11.99",
+            "picture_url": "https://designengtmpblob.blob.core.windows.net/files/images/cheese_pizza.jpg"
+          },
+          {
+            "id": "0337a62e-03e7-11eb-9832-0b48995c3215",
+            "name": "Veggie Pizza",
+            "price": 1329,
+            "display_price": "$13.29",
+            "picture_url": "https://designengtmpblob.blob.core.windows.net/files/images/veggie_pizza.jpg"
+          },
+          {
+            "id": "31394172-03e7-11eb-9c27-ab45c4bd48fd",
+            "name": "Pepperoni Pizza",
+            "price": 1299,
+            "display_price": "$12.99",
+            "picture_url": "https://designengtmpblob.blob.core.windows.net/files/images/pepperoni_pizza.jpg"
+          }
+        ]
+      },
+      {
+        "id": "941e4648-6d58-11e8-959b-3f06f4d1c455",
+        "name": "Sides",
+        "items": [
+          {
+            "id": "94a021da-adc0-11e6-a06a-778d761c8059",
+            "name": "Fries",
+            "price": 649,
+            "display_price": "$6.49",
+            "picture_url": "https://designengtmpblob.blob.core.windows.net/files/images/fries.jpg"
+          },
+          {
+            "id": "2ab7d422-f2c5-11e5-bf2a-83140f4d4df7",
+            "name": "Cole Slaw",
+            "price": 299,
+            "display_price": "$2.99",
+            "picture_url": "https://designengtmpblob.blob.core.windows.net/files/images/coleslaw.jpg"
+          },
+          {
+            "id": "06c9a86c-19a3-11e9-a073-e318d97dc416",
+            "name": "Side Salad",
+            "price": 499,
+            "display_price": "$4.99",
+            "picture_url": "https://designengtmpblob.blob.core.windows.net/files/images/side_salad.jpg"
+          }
+        ]
+      },
+      {
+        "id": "f3d51ed2-7b9e-11e8-b5ac-0b521e617741",
+        "name": "Drinks",
+        "items": [
+          {
+            "id": "e8b6dd42-7dbb-11e7-942b-0f4ef614dd99",
+            "name": "Coke",
+            "price": 299,
+            "display_price": "$2.99",
+            "picture_url": "https://designengtmpblob.blob.core.windows.net/files/images/coke.jpg"
+          },
+          {
+            "id": "90395b42-7dbe-11e7-a18b-6306d735c973",
+            "name": "Diet Coke",
+            "price": 299,
+            "display_price": "$2.99",
+            "picture_url": "https://designengtmpblob.blob.core.windows.net/files/images/diet_coke.jpg"
+          },
+          {
+            "id": "754ae8cc-7dbf-11e7-bf03-cb9555055ec7",
+            "name": "Sweet Tea",
+            "price": 299,
+            "display_price": "$2.99",
+            "picture_url": "https://designengtmpblob.blob.core.windows.net/files/images/sweet_tea.jpg"
+          }
+        ]
+      }
+    ]
+  }
+  

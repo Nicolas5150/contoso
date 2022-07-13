@@ -1,0 +1,22 @@
+.button {
+  background-color: var(--color_blue_base);
+  border: none;
+  border-radius: var(--sizing_radius_base);
+  color: var(--color_white_base);
+  padding: var(--sizing_space_base);
+  text-align: center;
+  text-decoration: none;
+  min-width: 100px;
+}
+
+.button:hover,
+.button:focus {
+  background-color: var(--color_blue_dark);
+  cursor: pointer;
+  transition: background-color 250ms;
+}
+
+.button:disabled {
+  background-color: var(--color_gray_base);
+  pointer-events: none;
+}

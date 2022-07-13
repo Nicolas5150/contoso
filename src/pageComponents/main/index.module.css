@@ -1,0 +1,16 @@
+.wrapper {
+  align-self: start;
+  flex-wrap: wrap;
+  margin: var(--sizing_space_md);
+  /*Used to offset the main content from the fixed side bar 
+  - else this would be under it since the sidebar is taken out of the normal layout flow*/
+  margin-left: calc(300px + var(--sizing_space_md));
+}
+
+/*1095px was the approx break for which the items became a single row - in chrome on mac.
+Would test more for additional screens if given time*/
+@media screen and (max-width: 1095px) {
+  .wrapper {
+    justify-content: center;
+  }
+}

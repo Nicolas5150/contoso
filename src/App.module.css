@@ -1,0 +1,6 @@
+.app {
+  color: var(--color_black_base);
+  display: flex;
+  flex-direction: column;
+  font-size: var(--sizing_font_base);
+}

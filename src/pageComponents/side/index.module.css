@@ -1,0 +1,33 @@
+.wrapper {
+  background-color: var(--color_white_base);
+  border-right: solid 1px black;
+  bottom: 0;
+  display: flex;
+  font-size: var(--sizing_font_lg);
+  min-width: 300px;
+  padding: var(--sizing_space_md);
+  position: fixed;
+  top: 67px;
+}
+
+.wrapper ul {
+  list-style: none;
+  margin-top: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.wrapper li {
+  margin: var(--sizing_space_md) 0px var(--sizing_space_md) 0px;
+  padding: var(--sizing_space_base);
+}
+
+.wrapper li:hover {
+  cursor: pointer;
+}
+
+.active {
+  background-color: var(--color_tan_base);
+  border-radius: var(--sizing_radius_base);
+  font-weight: bold;
+}

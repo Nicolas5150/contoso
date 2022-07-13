@@ -1,0 +1,48 @@
+.wrapper {
+  border-radius: var(--sizing_radius_base);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  height: 350px;
+  margin: var(--sizing_space_md);
+  overflow: hidden;
+  width: 350px;
+}
+
+.img_wrapper {
+  height: 250px;
+  overflow: hidden;
+  width: inherit;
+}
+
+.img_wrapper img {
+  height: inherit;
+  object-fit: fill;
+  width: inherit;
+}
+
+.card_text {
+  margin: var(--sizing_space_md);
+}
+
+.name {
+  font-size: var(--sizing_font_lg);
+  font-weight: bold;
+  margin-bottom: var(--sizing_space_md);
+}
+
+.add {
+  color: var(--color_blue_dark);
+  margin-left: auto;
+}
+
+.selected.wrapper {
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 12px;
+}
+
+.selected .img_wrapper img {
+  transform: scale(1.01);
+  transition: transform 1s;
+}
+
+.selected .add {
+  cursor: pointer;
+}

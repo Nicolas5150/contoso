@@ -1,0 +1,40 @@
+:root {
+  --color_black_base: #000000;
+  --color_blue_dark: #01678c;
+  --color_blue_base: #0081af;
+  --color_blue_light: #2dc7ff;
+  --color_gray_base: #808080;
+  --color_tan_dark: #ead2ac;
+  --color_tan_base: #ead2ac;
+  --color_white_base: #ffffff;
+
+  --sizing_radius_base: 4px;
+
+  --sizing_font_xl: 22px;
+  --sizing_font_lg: 20px;
+  --sizing_font_md: 18px;
+  --sizing_font_base: 16px;
+  --sizing_font_sm: 14px;
+  --sizing_font_xs: 12px;
+
+  --sizing_space_xl: 64px;
+  --sizing_space_lg: 32px;
+  --sizing_space_md: 16px;
+  --sizing_space_base: 8px;
+  --sizing_space_sm: 4px;
+  --sizing_space_xs: 2px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.flex_col {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex_row {
+  display: flex;
+  flex-direction: row;
+}

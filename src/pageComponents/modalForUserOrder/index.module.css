@@ -1,0 +1,49 @@
+.content {
+  height: 100%;
+}
+
+.content ul {
+  flex-grow: 1;
+  list-style: none;
+  margin-top: 0;
+  overflow-y: scroll;
+  padding: 0;
+  width: 100%;
+}
+
+.content li {
+  justify-content: space-between;
+  margin-bottom: var(--sizing_space_lg);
+}
+
+.name {
+  width: 400px;
+}
+
+.price {
+  width: 100px;
+}
+
+.count_wrapper {
+  width: 200px;
+}
+
+.count_wrapper_inner {
+  margin-left: auto;
+}
+
+.arrow_action:hover {
+  cursor: pointer;
+}
+
+.arrow_right {
+  transform: rotate(180deg);
+}
+
+.item_count {
+  margin: 0 var(--sizing_space_lg);
+}
+
+.total {
+  margin: auto 0 0 auto;
+}
